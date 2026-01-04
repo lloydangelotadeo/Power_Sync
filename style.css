@@ -60,3 +60,85 @@ nav a {
     text-decoration: none;
     font-weight: 600;
 }
+
+#prototype {
+    padding: 3rem 1.5rem;
+    background-color: #f9f9f9;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.video-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.video-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.video-card video,
+.video-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+#thesis {
+    padding: 3rem 1.5rem;
+    background-color: #ffffff;
+}
+
+.thesis-card {
+    max-width: 800px;
+    margin: auto;
+}
+
+.thesis-meta {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.thesis-meta li {
+    margin-bottom: 0.3rem;
+}
+
+.thesis-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #1f2937;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #374151;
+}
+
+.btn.outline {
+    background: transparent;
+    color: #1f2937;
+    border: 2px solid #1f2937;
+}
+
+.btn.outline:hover {
+    background-color: #1f2937;
+    color: white;
+}
